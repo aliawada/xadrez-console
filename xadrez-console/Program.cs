@@ -1,4 +1,8 @@
 ﻿using tabuleiro;
+using xadrez_console;
 
 Tabuleiro tabuleiro = new Tabuleiro(8, 8);
-Console.WriteLine();
+Tela.imprimirTabuleiro(tabuleiro);
+
+Console.ReadLine();
+
