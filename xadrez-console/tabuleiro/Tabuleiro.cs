@@ -1,0 +1,17 @@
+﻿
+namespace tabuleiro
+{
+    internal class Tabuleiro
+    {
+        public int Linha { get; set; }
+        public int Coluna { get; set; }
+        private Peca[,] Peca;
+
+        public Tabuleiro(int linha, int coluna)
+        {
+            Linha = linha;
+            Coluna = coluna;
+            Peca = new Peca[Linha, Coluna];
+        }
+    }
+}
