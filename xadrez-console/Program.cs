@@ -1,7 +1,9 @@
 ﻿using tabuleiro;
 using xadrez_console;
 using xadrez;
+using System.Text;
 
+Console.OutputEncoding = Encoding.UTF8;
 Tabuleiro tabuleiro = new Tabuleiro(8, 8);
 
 tabuleiro.colocarPeca(new Torre(Cor.Preta, tabuleiro), new Posicao(0, 0));
