@@ -4,7 +4,7 @@ namespace xadrez
 {
     internal class PosicaoXadrez
     {
-        public char Coluna { get; set; }
+        public char Coluna { get; private set; }
         public int Linha { get; set; }
 
         public PosicaoXadrez(char coluna, int linha)
